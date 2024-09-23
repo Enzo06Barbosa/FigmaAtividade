@@ -1,0 +1,87 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 1200px;
+  box-sizing: border-box;
+}
+
+.text {
+  max-width: 50%;
+}
+
+.text h1 {
+  font-family: 'red rose', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  color: #091133;
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color:#6F7CB2;
+  margin-bottom: 60px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.botao {
+  display: flex;
+  gap: 15px;
+  margin-left: 56px;
+  margin-bottom: 270px;
+}
+
+.botao a {
+  padding: 6px 50px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.botao .botao-um {
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  background-color:  #111B47;
+  color: #fff;
+  border-radius: 2px;
+  border: 1px solid #111B47;
+}
+
+.botao .botao-dois {
+  font-family: 'roboto', sans-serif;
+  font-weight: 500;
+  background-color: transparent;
+  color: #111B47;
+  border: 2px solid #111B47;
+}
+
+.img-celular {
+  max-width: 100%;
+  display: flex;
+  align-self: flex-end;
+  margin-top: 71px;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .text {
+      max-width: 100%;
+      margin-bottom: 20px;
+  }
+}
